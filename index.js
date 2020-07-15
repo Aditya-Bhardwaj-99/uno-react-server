@@ -292,7 +292,7 @@ function winnhogaya(d){
  addcards=[];
  retry=0;
  users=[];
- wss.broadcast(JSON.stringify({action:'win',user:d.user,op:op}));
+ wss.broadcast(JSON.stringify({action:'win',user:d.user}));
 }
 
 function nextturn(ws) {
