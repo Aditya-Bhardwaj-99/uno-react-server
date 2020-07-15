@@ -42,7 +42,7 @@ wss.broadcast = function broadcast(msg) {
 };
 
 /* HANDLE REQUESTS */
-app.get('/',function(){
+app.get('/',function(req,res){
     res.end('app is working');
 });
 
