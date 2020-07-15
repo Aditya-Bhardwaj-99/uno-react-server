@@ -42,6 +42,9 @@ wss.broadcast = function broadcast(msg) {
 };
 
 /* HANDLE REQUESTS */
+app.get('/',function(){
+    res.end('app is working');
+})
 app.post('/login', function (req, res) {
     mongo.connect(url, function (err, client) {
         if (err) {
