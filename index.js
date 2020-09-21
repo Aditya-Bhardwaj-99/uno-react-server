@@ -5,8 +5,6 @@ const express=require('express');
 const bodyparser=require('body-parser');
 const mongo=require('mongodb').MongoClient;
 const cors=require('cors');
-const { resolve } = require('path');
-const { rejects } = require('assert');
 
 /* SERVER */
 const app = express();
